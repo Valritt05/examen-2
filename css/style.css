@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+:root {
+    --color-negro: #282d33;
+    --color-gris: #777;
+    --menu-hover: #282d33;
+    --fondo-footer: #30363d;
+    --color-footer: #898989;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: var(--color-gris);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Catamaran', sans-serif;
+    color: var(--color-negro);
+}
+
+header {
+    background-color: #fff;
+}
+
+footer {
+    background-color: var(--fondo-footer);
+    color: var(--color-footer);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+}
+#cta {
+    background-image: url("../img/home-grid-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    background-color: var(--color-gris); 
+    color: #000000; 
+    border-radius: 0px; 
+    padding: 8px 15px; 
+	opacity: 0.8
+}
+
+
+
+
+
+
+#cta {
+    background-image: url("../img/home-grid-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#clientes {
+    padding: 10px 20px 60px;
+    text-align: center;
+}
+
+#services {
+    padding: 10px 10px 40px;
+}
+
+.section-divider {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-gris);
+    margin: 40px 0;
+}
+
+
+#services
+p {
+    font-size: 12px;
+    line-height: 1.5;
+	text-align: center;
+    color: var(--color-gris);
+	font-weight: 100;
+}
+
+#intro p{
+	  font-size: 12px;
+    line-height: 1.5;
+	text-align: center;
+    color: var(--color-gris);
+	font-weight: 100;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+#hero-slides h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    color: #fff;
+}
+
+#services h3{
+	font-size: 15px;
+	text-align: center;
+}
+
+#intro h3{
+	font-size: 15px;
+	text-align: center;
+}
+
+#cta h3{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 100;
+	
+	
+}
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.btn-hero {
+    background-color: #fff;
+    color: var(--color-negro);
+    padding: 13px 40px;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+#cta .btn-hero{
+	 background-color: #fff;
+    color: var(--color-negro);
+    padding: 13px 40px;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+.section-divider {
+    width: 100%;
+    height: 1px; 
+    background-color: var(--color-gris); 
+	opacity: 0.2;
+    margin: 40px 0;
+
+
+#hero-slides .carousel-caption {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#intro img, #services img, #clientes img {
+    margin-bottom: 20px;
+}
